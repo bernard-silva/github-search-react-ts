@@ -13,10 +13,10 @@
 
 ### Ferramentas utilizadas
 
-- <a href="https://axios-http.com/" target="_blank">ReactJS (com Vite)</a>
-- <a href="https://tailwindcss.com/" target="_blank">TypeScript</a>
-- <a href="https://react.dev/" target="_blank">Axios</a>
-- <a href="https://tanstack.com/" target="_blank">Styled Components</a>
+- <a href="https://pt.vitejs.dev/" target="_blank">ReactJS (com Vite)</a>
+- <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
+- <a href="https://axios-http.com/" target="_blank">Axios</a>
+- <a href="https://styled-components.com/" target="_blank">Styled Components</a>
 
 ### O porquê das ferramentas?
 
