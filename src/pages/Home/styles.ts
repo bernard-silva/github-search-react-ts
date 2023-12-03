@@ -128,3 +128,4 @@ export const UserCard = styled.div`
       color: #cbcbd6;
     }
 `;
+ 
