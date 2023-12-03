@@ -1,6 +1,6 @@
 # Desafio: GitHub Busca
 
-<h6> Don't speak Portuguese? <a href="https://github.com/bernard-silva/github-busca-react-ts">Click here</a> to view this page in English.<h6>
+<h6> Don't speak Portuguese? <a href="https://github.com/bernard-silva/github-search-react-ts">Click here</a> to view this page in English.<h6>
 
 #### **Objetivo do Desafio**: Implementar uma página de busca que traga dados do usuário do GitHub e ao clicar na foto retorne mais detalhes e uma lista dos seus repositórios, onde ao tocar em um deles deve ser direcionado ao repositorio no site do GitHub. Também exibir um menu com o histórico dos usuários pesquisados.
 
@@ -13,7 +13,7 @@
 
 ### Ferramentas utilizadas
 
-- <a href="https://pt.vitejs.dev/" target="_blank">ReactJS (com Vite)</a>
+- <a href="https://vitejs.dev/" target="_blank">ReactJS (com Vite)</a>
 - <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
 - <a href="https://axios-http.com/" target="_blank">Axios</a>
 - <a href="https://styled-components.com/" target="_blank">Styled Components</a>
@@ -36,7 +36,7 @@
 > sua máquina
 
 ```
-git clone https://github.com/bernard-silva/github-busca-react-ts.git && cd github-busca-react-ts
+git clone https://github.com/bernard-silva/github-search-react-ts.git && cd github-search-react-ts
 ```
 
 - Navegar até a raiz do projeto
