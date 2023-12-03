@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Header = styled.header`
+export const BackButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,76 +17,91 @@ export const Header = styled.header`
       color: #222;
       cursor: default;
     }
-
-    svg {
-      margin-right: 1px;
-    }
   }
 `;
 
 export const UserInfo = styled.section`
-  margin-top: 80px;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  align-items: center;
 
   header {
     display: flex;
-    align-items: center;
+    align-items: center;  
 
     img {
-      width: 120px;
-      height: 120px;
+      width: 110px;
+      height: 110px;
       border-radius: 50%;
     }
 
-    div {
-      margin-left: 24px;
+    .wrapper {
+      margin-left: 1px;
+      display: flex;
+      flex-direction: column;
 
-      strong {
-        font-size: 30px;
-        color: #3d3d4d;
+      .wrapper-2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto 16px;
+
+        strong {
+          font-size: 28px;
+          color: #3d3d4d;
+        }
+
+        p {
+          font-size: 18px;
+          color: #737380;
+          margin-top: 4px;
+        }
       }
 
-      p {
-        font-size: 18px;
-        color: #737380;
-        margin-top: 4px;
+      .wrapper-3 {
+        margin: auto 3px;
+        display: flex;
+        gap: 1px;
+
+        p {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: auto 13px;
+          font-size: 14px;
+          color: #737380;
+          margin-top: 4px;
+        }
       }
     }
   }
+`;
 
-  ul {
-    display: flex;
-    list-style: none;
-    margin-top: 40px;
-
-    li {
-      & + li {
-        margin-left: 80px;
-      }
-
-      strong {
-        display: block;
-        font-size: 24px;
-        color: #3d3d4d;
-      }
-
-      span {
-        display: block;
-        margin-top: 4px;
-        color: #6c6c80;
-      }
-    }
-  }
+export const RepositoryList = styled.div`
+/* margin: 20px auto; */
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 `;
 
 export const CardRepo = styled.a`
   background: #fff;
-  display: flex;
-  text-decoration: none;
-  color: #000;
-`;
+  padding: 10px;
+  border-radius: 5px;
 
-export const RepositoryList = styled.div`
+  text-decoration: none;
+  color: #3d3d4d;
+  font-size: 14px;
+
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.4rem;
+
+  strong {
+    font-size: 20px;
+  }
 `;

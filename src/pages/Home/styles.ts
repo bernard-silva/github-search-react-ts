@@ -27,18 +27,13 @@ export const Container = styled.div`
 
 export const Form = styled.form<FormProps>`
   margin-top: 20px;
-  /* max-width: 700px; */
-  /* min-width: 200px; */
-  /* width: 100%; */
   flex: 1;
   display: flex;
 
   input {
-    /* flex: 1; */
     height: 50px;
     width: 100%;
     padding-left: 1rem;
-    /* padding: 0 24px; */
     border: 0;
     border-radius: 5px 0 0 5px;
     color: #3a3a3a;
@@ -57,7 +52,6 @@ export const Form = styled.form<FormProps>`
   }
 
   button {
-    /* width: 100px; */
     padding: 0 1rem;
     height: 50px;
     background: #04d361;
@@ -93,7 +87,6 @@ export const UserCard = styled.div`
     border-radius: 5px;
     width: 100%;
     padding: 24px;
-    display: block;
     text-decoration: none;
 
     display: flex;
@@ -101,7 +94,7 @@ export const UserCard = styled.div`
     transition: transform 0.2s;
 
     & + div {
-      margin-top: 16px;
+      margin-top: 10px;
     }
 
     &:hover {
@@ -109,7 +102,7 @@ export const UserCard = styled.div`
     }
 
     img {
-      width: 64;
+      width: 64px;
       height: 64px;
       border-radius: 50%;
     }
