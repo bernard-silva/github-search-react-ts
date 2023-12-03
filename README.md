@@ -1,9 +1,9 @@
 # Challenge: GitHub Search
 
-<h6> Não fala inglês? <a href="https://github.com/bernard-silva/github-busca-react-ts#readme-pt-br">Clique aqui</a> para ver essa página em português.<h6>
+<h6> Não fala inglês? <a href="https://github.com/bernard-silva/github-busca-react-ts/blob/main/README-pt-br.md">Clique aqui</a> para ver essa página em português.<h6>
 </br>
 
-**Challenge Objective**: Implement a search page that brings user data from GitHub and when clicking on the photo returns more details and a list of your repositories, where when tapping on one of them you should be directed to the repository on the GitHub website . Also display a menu with the history of searched users.
+#### **Challenge Objective**: Implement a search page that brings user data from GitHub and when clicking on the photo returns more details and a list of your repositories, where when tapping on one of them you should be directed to the repository on the GitHub website . Also display a menu with the history of searched users.
 
 ### Preview
 
